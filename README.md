@@ -1,11 +1,24 @@
-# Awesome-Supervised-Fine-Tuning
-## Supervised Fine-Tuning (SFT): Evolution, Variants, Types, & Applications
+# 🚀 Awesome Supervised Fine-Tuning
 
-Supervised Fine-Tuning (SFT) is a critical alignment phase in the lifecycle of Large Language Models (LLMs). While base models undergo massive self-supervised pre-training to learn general language structures, statistical world data, and next-token prediction syntax, they are inherently unaligned for human instruction following—often completing a prompt with more questions or repeating text. SFT bridges this gap by training the frozen or unlocked base architecture on a highly curated dataset of high-quality, human- or AI-generated demonstrations (Prompt-Response pairs). By optimizing the network using a standard cross-entropy loss function on the target tokens, SFT instills task formatting, instruction adherence, conversational personas, and tool-calling capabilities.
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Supervised Fine-Tuning Banner" width="100%" />
+
+  <br/><br/>
+
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Supervised-Fine-Tuning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Supervised-Fine-Tuning?style=flat-square&logo=github" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Supervised-Fine-Tuning/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Supervised-Fine-Tuning?style=flat-square" alt="Issues"/></a> <a href="https://github.com/ishandutta2007/Awesome-Supervised-Fine-Tuning/pulls"><img src="https://img.shields.io/github/issues-pr/ishandutta2007/Awesome-Supervised-Fine-Tuning?style=flat-square" alt="Pull Requests"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
 
 ---
 
-## 1. The Chronological Evolution
+## 🌟 Supervised Fine-Tuning (SFT): Evolution, Variants, Types, & Applications
+
+**Supervised Fine-Tuning (SFT)** is a critical alignment phase in the lifecycle of Large Language Models (LLMs). While base models undergo massive self-supervised pre-training to learn general language structures, statistical world data, and next-token prediction syntax, they are inherently unaligned for human instruction following—often completing a prompt with more questions or repeating text. 
+
+SFT bridges this gap by training the frozen or unlocked base architecture on a highly curated dataset of high-quality, human- or AI-generated demonstrations (Prompt-Response pairs). By optimizing the network using a standard cross-entropy loss function on the target tokens, SFT instills task formatting, instruction adherence, conversational personas, and tool-calling capabilities.
+
+---
+
+## 📅 1. The Chronological Evolution of SFT
 
 The technical execution of supervised model tuning has shifted from full parameter modification on specialized tasks to foundational dialogue alignment and automated synthetic instruction generation.
 
@@ -25,7 +38,7 @@ flowchart LR
 
 ---
 
-## 2. Core Architectural & Parameter Variants
+## 🏗️ 2. Core Architectural & Parameter Variants
 
 SFT routines vary based on whether they optimize the entire model footprint or preserve the core weights via parameter-efficient tracking layers.
 
@@ -37,7 +50,7 @@ SFT routines vary based on whether they optimize the entire model footprint or p
 
 ---
 
-## 3. Data Modality & Prompt Ingestion Types
+## 📥 3. Data Modality & Prompt Ingestion Types
 
 Depending on how instructions are curated, sequenced, and packed during the preprocessing pipeline, SFT follows distinct functional data paradigms.
 
@@ -49,7 +62,7 @@ Depending on how instructions are curated, sequenced, and packed during the prep
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## ⚙️ 4. Production Engineering Challenges & Mitigations
 
 Executing large-scale SFT loops in real-world enterprise architectures requires balancing optimization boundaries and padding efficiencies.
 
@@ -60,7 +73,7 @@ Executing large-scale SFT loops in real-world enterprise architectures requires 
 
 ---
 
-## 5. Frontier Real-World Applications
+## 💼 5. Frontier Real-World Applications
 
 | Application | Description & Details | First Used (Year) | Origin Paper |
 | :--- | :--- | :---: | :--- |
