@@ -81,3 +81,13 @@ Executing large-scale SFT loops in real-world enterprise architectures requires 
 | [**Structured Customer Service Persona Formatting**](details/structured_customer_service_persona.md) | **Application:** Aligns a raw base model to act as a specialized brand representative. SFT forces the system to output safe, politeness-bounded responses using clean markdown formatting, lists, and summary charts while suppressing raw data dumps. | 2022 | [InstructGPT (Ouyang et al., 2022)](https://arxiv.org/abs/2203.02155) |
 | [**Domain-Specific Corporate Localization (Legal/Medical)**](details/domain_specific_localization.md) | **Application:** Tailors open-weights systems to handle technical data. By fine-tuning models over long-form legal case documents or structured clinical charts, the SFT layer conditions the network to parse specialized jargon without fracturing syntax patterns. | 2019 | [BioBERT (Lee et al., 2019)](https://arxiv.org/abs/1901.08746) |
 
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Supervised-Fine-Tuning&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Supervised-Fine-Tuning&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Supervised-Fine-Tuning&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Supervised-Fine-Tuning&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
