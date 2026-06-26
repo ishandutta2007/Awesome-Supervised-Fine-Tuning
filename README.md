@@ -11,7 +11,10 @@ The technical execution of supervised model tuning has shifted from full paramet
 
 
 ```mermaid
-[Task-Specific Fine-Tuning (2018)] ----> [Instruction Tuning (SFT, 2022)] ----> [Synthetic Distillation & Reasoning SFT (2024+)](Single-Task Task Head Swaps)            (Multi-Task Conversational Prompt Mapping)      (AI-Feedback / Ultra-Curated Reasoning Paths)
+flowchart LR
+    A["Task-Specific Fine-Tuning (2018)<br/>(Single-Task Head Swaps)"]
+    --> B["Instruction Tuning (SFT, 2022)<br/>(Multi-Task Conversational Prompt Mapping)"]
+    --> C["Synthetic Distillation & Reasoning SFT (2024+)<br/>(AI Feedback / Ultra-Curated Reasoning Paths)"]
 ```
 
 *   **The Task-Specific Tuning Era (~2018–2021)**
